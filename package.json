@@ -1,0 +1,13 @@
+{
+  "name": "liax-contratistas",
+  "version": "0.1.0",
+  "private": true,
+  "description": "LIAX Contratistas Seguros — plataforma de gestión de seguridad de contratistas Codelco",
+  "type": "module",
+  "scripts": {
+    "cargar-resso": "node scripts/cargar_resso_supabase.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0"
+  }
+}
